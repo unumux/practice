@@ -60,3 +60,9 @@ typings/
 # ignore compiled stuff
 *.min.*
 *.map
+
+# OSX
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
