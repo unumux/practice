@@ -58,5 +58,5 @@ typings/
 .env
 
 # ignore compiled stuff
-styles/styles.min.css
-styles/styles.min.css.map
+*.min.*
+*.map
