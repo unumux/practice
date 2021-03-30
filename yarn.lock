@@ -31,6 +31,12 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@unumux/stylelint-config-unumux/-/stylelint-config-unumux-1.0.1.tgz#34a724c5fdf19482af5d54fc22f5162a972c3378"
 
+"@unumux/theme-enterprise-default@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@unumux/theme-enterprise-default/-/theme-enterprise-default-0.4.0.tgz#c5f98bb38c7a04121f6b8fdf1a80d4bcee5fe56f"
+  dependencies:
+    "@unumux/willow" "^0.2.0"
+
 "@unumux/ux-build-tools@^3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@unumux/ux-build-tools/-/ux-build-tools-3.7.0.tgz#1b2b8d22ac87b9578b78b80d51fe330799226a87"
@@ -78,6 +84,13 @@
     vinyl-buffer "^1.0.0"
     vinyl-source-stream "^1.1.0"
     watchify "^3.2.1"
+
+"@unumux/willow@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@unumux/willow/-/willow-0.2.0.tgz#e7b91c9df5a262982846c6971c65ba75acbabf04"
+  dependencies:
+    bootstrap "4.0.0-alpha.6"
+    normalize.css "^4.0.0"
 
 JSONStream@^0.8.4:
   version "0.8.4"
@@ -1027,6 +1040,13 @@ boom@2.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
   dependencies:
     hoek "2.x.x"
+
+bootstrap@4.0.0-alpha.6:
+  version "4.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-alpha.6.tgz#4f54dd33ac0deac3b28407bc2df7ec608869c9c8"
+  dependencies:
+    jquery ">=1.9.1"
+    tether "^1.4.0"
 
 bower-config@~0.5.0, bower-config@~0.5.2:
   version "0.5.2"
@@ -4043,6 +4063,10 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+jquery@>=1.9.1:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -5269,6 +5293,10 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
+
+normalize.css@^4.0.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-4.2.0.tgz#21d66cc557154d4379fd1e079ec7de58a379b099"
 
 npmconf@^2.0.1:
   version "2.1.2"
@@ -7267,6 +7295,10 @@ ternary-stream@^2.0.1:
     merge-stream "^1.0.0"
     through2 "^2.0.1"
 
+tether@^1.4.0:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/tether/-/tether-1.4.7.tgz#d56a818590d8fe72e387f77a67f93ab96d8e1fb2"
+
 text-table@^0.2.0, text-table@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -7790,8 +7822,8 @@ xtend@~3.0.0:
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-3.0.0.tgz#5cce7407baf642cba7becda568111c493f59665a"
 
 y18n@^3.2.0, y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
 
 yallist@^2.1.2:
   version "2.1.2"
